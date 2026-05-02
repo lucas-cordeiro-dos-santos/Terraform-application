@@ -1,0 +1,14 @@
+variable "project_name" {
+  description = "Nome do projeto usado no naming dos recursos."
+  type        = string
+}
+
+variable "environment" {
+  description = "Ambiente (dev, staging, prod)."
+  type        = string
+}
+
+variable "domain_name" {
+  description = "Dominio principal do site (ex: exemplo.com.br)."
+  type        = string
+}
